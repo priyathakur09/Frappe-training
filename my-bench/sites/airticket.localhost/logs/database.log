@@ -1,0 +1,182 @@
+2024-10-08 17:57:36,040 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parentfield varchar(140)
+2024-10-08 17:57:36,117 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-08 17:59:18,492 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9), MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-08 17:59:57,319 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-08 18:01:38,143 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-08 18:02:51,364 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-08 18:06:37,124 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-08 18:06:53,919 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parent varchar(140)
+2024-10-08 18:06:53,920 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parenttype varchar(140)
+2024-10-08 18:06:53,920 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parentfield varchar(140)
+2024-10-08 18:07:08,019 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parent varchar(140)
+2024-10-08 18:07:08,021 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parenttype varchar(140)
+2024-10-08 18:07:08,022 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parentfield varchar(140)
+2024-10-08 18:07:08,111 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-08 18:10:06,625 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-08 18:12:01,588 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parent varchar(140)
+2024-10-08 18:12:01,588 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parenttype varchar(140)
+2024-10-08 18:12:01,589 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parentfield varchar(140)
+2024-10-08 18:12:01,653 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-08 18:12:23,043 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parent varchar(140)
+2024-10-08 18:12:23,044 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parenttype varchar(140)
+2024-10-08 18:12:23,044 WARNING database DDL Query made to DB:
+alter table `tabAirplane Ticket Add-on Item` add column if not exists parentfield varchar(140)
+2024-10-08 18:12:23,115 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-08 22:28:42,336 WARNING database DDL Query made to DB:
+create table `tabAirplane Flight` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`amended_from` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `amended_from`(`amended_from`),
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-10-08 22:32:25,198 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `airplane` varchar(140), ADD COLUMN `status` varchar(140) DEFAULT 'Scheduled', ADD COLUMN `date_of_departure` date, ADD COLUMN `time_of_departure` time(6), ADD COLUMN `duration` decimal(21,9)
+2024-10-08 22:35:43,152 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-08 22:36:24,249 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-08 22:43:11,484 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-08 22:44:59,836 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-08 22:45:16,056 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-08 22:45:32,583 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-09 10:08:08,945 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `source_airport` varchar(140)
+2024-10-09 10:08:08,953 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-09 10:08:30,898 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `destination_airport` varchar(140)
+2024-10-09 10:08:30,904 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-09 10:10:48,856 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-09 10:11:07,598 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-09 10:16:04,181 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `source_airport_code` varchar(140), ADD COLUMN `destination_airport_code` varchar(140)
+2024-10-09 10:16:04,189 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-09 10:16:21,882 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-09 10:17:17,919 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-09 10:19:12,737 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-09 10:24:21,789 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` ADD COLUMN `seat` varchar(140)
+2024-10-09 10:24:21,798 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-09 10:27:01,225 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-09 10:27:30,519 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-09 10:44:38,766 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-09 10:47:47,711 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-09 12:41:47,981 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `route` varchar(140), ADD COLUMN `is_published` tinyint NOT NULL DEFAULT 0
+2024-10-09 12:41:47,991 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9)
+2024-10-09 13:02:50,526 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `duration` decimal(21,9)
+2024-10-09 14:10:51,047 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `duration` decimal(21,9)
+2024-10-09 17:19:34,912 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2024-10-09 21:05:28,834 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-09 21:05:42,918 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-17 10:37:27,209 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-10-17 10:37:27,883 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane` MODIFY `capacity` int NOT NULL DEFAULT 0
+2024-10-17 10:37:28,116 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9)
+2024-10-17 10:37:28,235 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirline` MODIFY `founding_year` int NOT NULL DEFAULT 0
+2024-10-17 10:37:28,480 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `duration` decimal(21,9)
+2024-10-17 10:37:28,542 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket Add-on Item` MODIFY `amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-17 10:37:28,709 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane` MODIFY `capacity` int NOT NULL DEFAULT 0
+2024-10-17 10:37:28,881 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-17 10:37:28,944 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirline` ADD COLUMN `website` varchar(140)
+2024-10-17 10:37:28,950 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirline` MODIFY `founding_year` int NOT NULL DEFAULT 0
+2024-10-17 15:08:04,290 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` ADD COLUMN `airplane` varchar(140)
+2024-10-17 15:08:04,298 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-17 15:08:20,322 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-17 20:47:59,660 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-10-17 20:48:00,501 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane` MODIFY `capacity` int NOT NULL DEFAULT 0
+2024-10-17 20:48:00,693 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9)
+2024-10-17 20:48:00,769 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirline` MODIFY `founding_year` int NOT NULL DEFAULT 0
+2024-10-17 20:48:01,072 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane` MODIFY `capacity` int NOT NULL DEFAULT 0
+2024-10-17 20:48:01,303 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `duration_of_flight` decimal(21,9)
+2024-10-17 20:48:01,379 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirline` MODIFY `founding_year` int NOT NULL DEFAULT 0
+2024-10-17 21:54:30,261 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane` ADD COLUMN `initial_audit_completed` tinyint NOT NULL DEFAULT 0
+2024-10-17 21:54:30,270 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane` MODIFY `capacity` int NOT NULL DEFAULT 0
+2024-10-18 10:31:03,896 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirline` MODIFY `founding_year` int NOT NULL DEFAULT 0
+2024-10-18 10:33:11,455 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane` MODIFY `initial_audit_completed` tinyint NOT NULL DEFAULT 0, MODIFY `capacity` int NOT NULL DEFAULT 0
+2024-10-18 10:35:55,380 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `is_published` tinyint NOT NULL DEFAULT 0, MODIFY `duration` decimal(21,9)
+2024-10-18 10:40:25,063 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-18 10:52:39,967 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane` MODIFY `initial_audit_completed` tinyint NOT NULL DEFAULT 0, MODIFY `capacity` int NOT NULL DEFAULT 0

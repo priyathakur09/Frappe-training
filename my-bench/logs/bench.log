@@ -1,0 +1,462 @@
+2024-07-25 11:53:34,963 DEBUG cd my-bench && python3 -m venv env
+2024-07-25 11:53:37,282 DEBUG cd my-bench && /home/priya/Desktop/frappe-training/my-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-07-25 11:53:38,718 DEBUG cd my-bench && /home/priya/Desktop/frappe-training/my-bench/env/bin/python -m pip install --quiet wheel
+2024-07-25 11:53:39,699 LOG Getting frappe
+2024-07-25 11:53:39,699 DEBUG cd my-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-07-25 11:53:44,913 LOG Installing frappe
+2024-07-25 11:53:44,914 DEBUG cd /home/priya/Desktop/frappe-training/my-bench && /home/priya/Desktop/frappe-training/my-bench/env/bin/python -m pip install --quiet --upgrade -e /home/priya/Desktop/frappe-training/my-bench/apps/frappe 
+2024-07-25 11:54:19,813 DEBUG cd /home/priya/Desktop/frappe-training/my-bench/apps/frappe && yarn install --check-files
+2024-07-25 11:54:23,264 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-25 11:54:23,264 DEBUG cd my-bench && bench build
+2024-07-25 11:54:23,365 INFO /home/priya/.local/bin/bench build
+2024-07-25 11:54:36,118 LOG setting up backups
+2024-07-25 11:54:36,131 LOG backups were set up
+2024-07-25 11:54:36,131 INFO Bench my-bench initialized
+2024-07-25 11:56:51,318 INFO /home/priya/.local/bin/bench start
+2024-07-25 11:56:51,581 INFO /home/priya/.local/bin/bench worker
+2024-07-25 11:56:51,583 INFO /home/priya/.local/bin/bench schedule
+2024-07-25 11:56:51,585 INFO /home/priya/.local/bin/bench watch
+2024-07-25 11:56:51,594 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-25 11:57:29,410 INFO /home/priya/.local/bin/bench new-site mysite.localhost
+2024-07-25 12:00:01,676 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-07-25 12:02:01,880 INFO /home/priya/.local/bin/bench new-site mysite.localhost
+2024-07-25 12:05:53,388 INFO /home/priya/.local/bin/bench new-site mysite.localhost
+2024-07-25 12:07:38,063 INFO /home/priya/.local/bin/bench new-site mysite.localhost
+2024-07-25 12:08:54,782 INFO /home/priya/.local/bin/bench --site mysite.localhost add-to-hosts
+2024-07-25 18:00:02,061 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-07-25 21:43:19,257 INFO /home/priya/.local/bin/bench start
+2024-07-25 21:43:19,485 INFO /home/priya/.local/bin/bench schedule
+2024-07-25 21:43:19,499 INFO /home/priya/.local/bin/bench watch
+2024-07-25 21:43:19,503 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-25 21:43:19,514 INFO /home/priya/.local/bin/bench worker
+2024-07-25 22:18:16,912 INFO /home/priya/.local/bin/bench start
+2024-07-25 22:18:17,173 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-25 22:18:17,176 INFO /home/priya/.local/bin/bench schedule
+2024-07-25 22:18:17,177 INFO /home/priya/.local/bin/bench watch
+2024-07-25 22:18:17,183 INFO /home/priya/.local/bin/bench worker
+2024-07-25 22:20:08,467 INFO /home/priya/.local/bin/bench use mysite.localhost
+2024-07-25 22:20:16,465 INFO /home/priya/.local/bin/bench start
+2024-07-25 22:20:16,733 INFO /home/priya/.local/bin/bench worker
+2024-07-25 22:20:16,735 INFO /home/priya/.local/bin/bench schedule
+2024-07-25 22:20:16,738 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-25 22:20:16,745 INFO /home/priya/.local/bin/bench watch
+2024-07-26 12:00:02,164 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-07-27 12:00:01,246 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-07-29 17:22:52,895 INFO /home/priya/.local/bin/bench start
+2024-07-29 17:22:53,100 INFO /home/priya/.local/bin/bench schedule
+2024-07-29 17:22:53,108 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-29 17:22:53,125 INFO /home/priya/.local/bin/bench worker
+2024-07-29 17:22:53,125 INFO /home/priya/.local/bin/bench watch
+2024-07-29 20:06:52,917 INFO /home/priya/.local/bin/bench start
+2024-07-29 20:06:53,164 INFO /home/priya/.local/bin/bench schedule
+2024-07-29 20:06:53,170 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-29 20:06:53,181 INFO /home/priya/.local/bin/bench watch
+2024-07-29 20:06:53,187 INFO /home/priya/.local/bin/bench worker
+2024-07-29 20:20:35,113 INFO /home/priya/.local/bin/bench new-site irfancabs
+2024-07-29 20:25:47,145 INFO /home/priya/.local/bin/bench use irfancabs
+2024-07-29 20:37:11,242 INFO /home/priya/.local/bin/bench --site irfancabs add-to-hosts
+2024-07-30 10:04:50,356 INFO /home/priya/.local/bin/bench start
+2024-07-30 10:04:50,586 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-30 10:04:50,598 INFO /home/priya/.local/bin/bench worker
+2024-07-30 10:04:50,610 INFO /home/priya/.local/bin/bench schedule
+2024-07-30 10:04:50,613 INFO /home/priya/.local/bin/bench watch
+2024-07-30 11:01:08,036 INFO /home/priya/.local/bin/bench start
+2024-07-30 11:01:08,268 INFO /home/priya/.local/bin/bench worker
+2024-07-30 11:01:08,271 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-30 11:01:08,282 INFO /home/priya/.local/bin/bench watch
+2024-07-30 11:01:08,286 INFO /home/priya/.local/bin/bench schedule
+2024-07-30 11:03:19,809 INFO /home/priya/.local/bin/bench start
+2024-07-30 11:03:20,041 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-30 11:03:20,042 INFO /home/priya/.local/bin/bench schedule
+2024-07-30 11:03:20,065 INFO /home/priya/.local/bin/bench watch
+2024-07-30 11:03:20,070 INFO /home/priya/.local/bin/bench worker
+2024-07-30 11:04:06,509 INFO /home/priya/.local/bin/bench use irfancabs
+2024-07-30 11:25:15,357 INFO /home/priya/.local/bin/bench --site irfancabs add-to-hosts
+2024-07-30 11:29:13,309 INFO /home/priya/.local/bin/bench start
+2024-07-30 11:29:13,592 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-30 11:29:13,592 INFO /home/priya/.local/bin/bench schedule
+2024-07-30 11:29:13,597 INFO /home/priya/.local/bin/bench watch
+2024-07-30 11:29:13,597 INFO /home/priya/.local/bin/bench worker
+2024-07-30 11:34:25,505 INFO /home/priya/.local/bin/bench new-site irfan.cabs
+2024-07-30 11:36:36,387 INFO /home/priya/.local/bin/bench --site irfan.cabs add-to-hosts
+2024-07-30 12:00:01,730 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-07-30 18:00:01,719 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-07-30 18:18:26,962 INFO /home/priya/.local/bin/bench start
+2024-07-30 18:18:27,237 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-30 18:18:27,238 INFO /home/priya/.local/bin/bench schedule
+2024-07-30 18:18:27,242 INFO /home/priya/.local/bin/bench watch
+2024-07-30 18:18:27,248 INFO /home/priya/.local/bin/bench worker
+2024-07-30 18:20:19,954 INFO /home/priya/.local/bin/bench start
+2024-07-30 18:20:42,280 INFO /home/priya/.local/bin/bench start
+2024-07-30 18:20:56,785 INFO /home/priya/.local/bin/bench start
+2024-07-30 20:14:47,758 INFO /home/priya/.local/bin/bench start
+2024-07-30 20:14:47,972 INFO /home/priya/.local/bin/bench watch
+2024-07-30 20:14:47,979 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-30 20:14:47,999 INFO /home/priya/.local/bin/bench schedule
+2024-07-30 20:14:48,000 INFO /home/priya/.local/bin/bench worker
+2024-07-30 21:26:05,214 INFO /home/priya/.local/bin/bench new-app rentals
+2024-07-30 21:26:05,218 LOG creating new app rentals
+2024-07-30 21:28:10,202 LOG Installing rentals
+2024-07-30 21:28:10,203 DEBUG cd /home/priya/Desktop/frappe-training/my-bench && /home/priya/Desktop/frappe-training/my-bench/env/bin/python -m pip install --quiet --upgrade -e /home/priya/Desktop/frappe-training/my-bench/apps/rentals 
+2024-07-30 21:28:11,727 DEBUG bench build --app rentals
+2024-07-30 21:28:11,799 INFO /home/priya/.local/bin/bench build --app rentals
+2024-07-30 21:28:12,829 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-30 21:38:13,465 INFO /home/priya/.local/bin/bench --site mysite.localhost mariadb
+2024-07-30 21:46:03,478 INFO /home/priya/.local/bin/bench --site mysite.localhost mariadb
+2024-07-30 22:11:22,690 INFO /home/priya/.local/bin/bench --site mysite.localhost install-app rentals
+2024-07-30 22:12:38,840 INFO /home/priya/.local/bin/bench start
+2024-07-30 22:12:39,407 INFO /home/priya/.local/bin/bench schedule
+2024-07-30 22:12:39,458 INFO /home/priya/.local/bin/bench watch
+2024-07-30 22:12:39,521 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-30 22:12:39,524 INFO /home/priya/.local/bin/bench worker
+2024-07-31 10:12:51,516 INFO /home/priya/.local/bin/bench start
+2024-07-31 10:12:51,714 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-31 10:12:51,735 INFO /home/priya/.local/bin/bench worker
+2024-07-31 10:12:51,750 INFO /home/priya/.local/bin/bench watch
+2024-07-31 10:12:51,754 INFO /home/priya/.local/bin/bench schedule
+2024-07-31 12:00:01,365 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-07-31 12:38:06,402 INFO /home/priya/.local/bin/bench --site mysite.localhost developer-mode 1
+2024-07-31 12:38:47,588 INFO /home/priya/.local/bin/bench --site mysite.localhost developer-mode 1
+2024-07-31 17:48:28,891 INFO /home/priya/.local/bin/bench start
+2024-07-31 17:48:29,117 INFO /home/priya/.local/bin/bench watch
+2024-07-31 17:48:29,125 INFO /home/priya/.local/bin/bench schedule
+2024-07-31 17:48:29,145 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-31 17:48:29,150 INFO /home/priya/.local/bin/bench worker
+2024-07-31 18:00:01,648 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-07-31 18:06:21,225 INFO /home/priya/.local/bin/bench set-config -g developer_mode 1
+2024-07-31 18:09:11,787 INFO /home/priya/.local/bin/bench start
+2024-07-31 18:09:12,038 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-31 18:09:12,039 INFO /home/priya/.local/bin/bench schedule
+2024-07-31 18:09:12,054 INFO /home/priya/.local/bin/bench watch
+2024-07-31 18:09:12,057 INFO /home/priya/.local/bin/bench worker
+2024-07-31 20:46:37,271 INFO /home/priya/.local/bin/bench start
+2024-07-31 20:46:37,478 INFO /home/priya/.local/bin/bench worker
+2024-07-31 20:46:37,496 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-07-31 20:46:37,502 INFO /home/priya/.local/bin/bench watch
+2024-07-31 20:46:37,506 INFO /home/priya/.local/bin/bench schedule
+2024-08-01 09:44:13,480 INFO /home/priya/.local/bin/bench start
+2024-08-01 09:44:13,691 INFO /home/priya/.local/bin/bench watch
+2024-08-01 09:44:13,710 INFO /home/priya/.local/bin/bench schedule
+2024-08-01 09:44:13,718 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-08-01 09:44:13,725 INFO /home/priya/.local/bin/bench worker
+2024-08-01 12:00:01,647 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-01 14:04:34,362 INFO /home/priya/.local/bin/bench start
+2024-08-01 14:04:34,925 INFO /home/priya/.local/bin/bench worker
+2024-08-01 14:04:34,934 INFO /home/priya/.local/bin/bench schedule
+2024-08-01 14:04:35,026 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-08-01 14:04:35,029 INFO /home/priya/.local/bin/bench watch
+2024-08-01 18:00:02,203 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-02 10:28:07,492 INFO /home/priya/.local/bin/bench start
+2024-08-02 10:28:07,711 INFO /home/priya/.local/bin/bench watch
+2024-08-02 10:28:07,732 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-08-02 10:28:07,732 INFO /home/priya/.local/bin/bench worker
+2024-08-02 10:28:07,737 INFO /home/priya/.local/bin/bench schedule
+2024-08-07 10:22:32,459 INFO /home/priya/.local/bin/bench start
+2024-08-07 10:22:32,694 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-08-07 10:22:32,704 INFO /home/priya/.local/bin/bench schedule
+2024-08-07 10:22:32,715 INFO /home/priya/.local/bin/bench worker
+2024-08-07 10:22:32,723 INFO /home/priya/.local/bin/bench watch
+2024-08-07 12:00:01,478 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-07 15:51:50,690 INFO /home/priya/.local/bin/bench start
+2024-08-07 15:51:50,912 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-08-07 15:51:50,924 INFO /home/priya/.local/bin/bench schedule
+2024-08-07 15:51:50,941 INFO /home/priya/.local/bin/bench watch
+2024-08-07 15:51:50,941 INFO /home/priya/.local/bin/bench worker
+2024-08-07 17:44:32,482 INFO /home/priya/.local/bin/bench new-site AirTicket
+2024-08-07 17:52:03,082 INFO /home/priya/.local/bin/bench --site AirTicket add-to-hosts
+2024-08-07 17:52:37,522 INFO /home/priya/.local/bin/bench start
+2024-08-07 17:52:37,741 INFO /home/priya/.local/bin/bench worker
+2024-08-07 17:52:37,751 INFO /home/priya/.local/bin/bench schedule
+2024-08-07 17:52:37,768 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-08-07 17:52:37,769 INFO /home/priya/.local/bin/bench watch
+2024-08-07 18:00:01,911 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-07 18:04:04,909 INFO /home/priya/.local/bin/bench new-site airticket.localhost
+2024-08-07 18:07:58,850 INFO /home/priya/.local/bin/bench use airticket.localhost
+2024-08-07 18:09:24,758 INFO /home/priya/.local/bin/bench start
+2024-08-07 18:09:25,006 INFO /home/priya/.local/bin/bench schedule
+2024-08-07 18:09:25,014 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-08-07 18:09:25,016 INFO /home/priya/.local/bin/bench worker
+2024-08-07 18:09:25,018 INFO /home/priya/.local/bin/bench watch
+2024-08-07 18:45:39,412 INFO /home/priya/.local/bin/bench new-app airplane_mode
+2024-08-07 18:45:39,417 LOG creating new app airplane_mode
+2024-08-07 18:48:15,935 LOG Installing airplane_mode
+2024-08-07 18:48:15,935 DEBUG cd /home/priya/Desktop/frappe-training/my-bench && /home/priya/Desktop/frappe-training/my-bench/env/bin/python -m pip install --quiet --upgrade -e /home/priya/Desktop/frappe-training/my-bench/apps/airplane_mode 
+2024-08-07 18:48:18,649 DEBUG bench build --app airplane_mode
+2024-08-07 18:48:18,721 INFO /home/priya/.local/bin/bench build --app airplane_mode
+2024-08-07 18:48:19,717 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-08-07 21:53:16,666 INFO /home/priya/.local/bin/bench --site mysite.localhost install-app airplane_mode
+2024-08-07 22:44:22,398 INFO /home/priya/.local/bin/bench --site airticket.localhost install-app airplane_mode
+2024-08-08 09:57:52,683 INFO /home/priya/.local/bin/bench start
+2024-08-08 09:57:52,878 INFO /home/priya/.local/bin/bench schedule
+2024-08-08 09:57:52,886 INFO /home/priya/.local/bin/bench worker
+2024-08-08 09:57:52,915 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-08-08 09:57:52,915 INFO /home/priya/.local/bin/bench watch
+2024-08-08 12:00:01,544 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-08 17:15:03,310 INFO /home/priya/.local/bin/bench use mysite.localhost
+2024-08-08 17:17:30,222 INFO /home/priya/.local/bin/bench start
+2024-08-08 17:17:30,445 INFO /home/priya/.local/bin/bench watch
+2024-08-08 17:17:30,458 INFO /home/priya/.local/bin/bench schedule
+2024-08-08 17:17:30,467 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-08-08 17:17:30,478 INFO /home/priya/.local/bin/bench worker
+2024-08-12 18:00:01,182 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-13 00:00:01,505 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-13 12:00:01,968 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-13 18:00:01,494 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-14 12:00:01,192 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-17 18:00:01,537 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-22 12:00:01,899 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-28 12:00:02,119 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-29 12:00:01,610 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-30 12:00:01,852 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-30 18:00:01,387 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-31 12:00:01,696 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-08-31 18:00:01,339 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-09-01 12:00:01,964 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-01 20:41:53,064 INFO /home/priya/.local/bin/bench start
+2024-10-01 20:41:53,260 INFO /home/priya/.local/bin/bench worker
+2024-10-01 20:41:53,263 INFO /home/priya/.local/bin/bench schedule
+2024-10-01 20:41:53,293 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-01 20:41:53,296 INFO /home/priya/.local/bin/bench watch
+2024-10-01 21:15:32,646 INFO /home/priya/.local/bin/bench --site airticket add-to-hosts
+2024-10-01 21:33:48,338 INFO /home/priya/.local/bin/bench build
+2024-10-01 21:34:10,480 INFO /home/priya/.local/bin/bench migrate
+2024-10-01 21:34:22,038 INFO /home/priya/.local/bin/bench start
+2024-10-01 21:34:22,247 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-01 21:34:22,252 INFO /home/priya/.local/bin/bench watch
+2024-10-01 21:34:22,284 INFO /home/priya/.local/bin/bench schedule
+2024-10-01 21:34:22,285 INFO /home/priya/.local/bin/bench worker
+2024-10-03 09:56:20,340 INFO /home/priya/.local/bin/bench start
+2024-10-03 09:56:20,591 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-03 09:56:20,602 INFO /home/priya/.local/bin/bench worker
+2024-10-03 09:56:20,605 INFO /home/priya/.local/bin/bench watch
+2024-10-03 09:56:20,612 INFO /home/priya/.local/bin/bench schedule
+2024-10-03 18:00:02,937 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-03 18:29:02,417 INFO /home/priya/.local/bin/bench start
+2024-10-03 18:29:02,645 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-03 18:29:02,662 INFO /home/priya/.local/bin/bench schedule
+2024-10-03 18:29:02,663 INFO /home/priya/.local/bin/bench worker
+2024-10-03 18:29:02,666 INFO /home/priya/.local/bin/bench watch
+2024-10-04 12:19:21,512 INFO /home/priya/.local/bin/bench start
+2024-10-04 12:19:21,733 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-04 12:19:21,741 INFO /home/priya/.local/bin/bench schedule
+2024-10-04 12:19:21,767 INFO /home/priya/.local/bin/bench watch
+2024-10-04 12:19:21,778 INFO /home/priya/.local/bin/bench worker
+2024-10-04 14:26:38,064 INFO /home/priya/.local/bin/bench start
+2024-10-04 14:26:38,655 INFO /home/priya/.local/bin/bench worker
+2024-10-04 14:26:38,725 INFO /home/priya/.local/bin/bench watch
+2024-10-04 14:26:38,752 INFO /home/priya/.local/bin/bench schedule
+2024-10-04 14:26:38,755 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-04 14:28:06,213 INFO /home/priya/.local/bin/bench --site mysite.localhost migrate
+2024-10-04 14:34:18,603 INFO /home/priya/.local/bin/bench --site mysite.localhost migrate
+2024-10-04 19:12:45,647 INFO /home/priya/.local/bin/bench --site mysite.localhost migrate
+2024-10-04 19:15:48,342 INFO /home/priya/.local/bin/bench --site mysite.localhost migrate
+2024-10-05 10:43:15,059 INFO /home/priya/.local/bin/bench start
+2024-10-05 10:43:15,263 INFO /home/priya/.local/bin/bench schedule
+2024-10-05 10:43:15,266 INFO /home/priya/.local/bin/bench worker
+2024-10-05 10:43:15,295 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-05 10:43:15,297 INFO /home/priya/.local/bin/bench watch
+2024-10-05 11:58:24,282 INFO /home/priya/.local/bin/bench new-app ExpenseManager
+2024-10-05 11:58:24,288 LOG creating new app expensemanager
+2024-10-05 11:59:40,292 LOG Installing expensemanager
+2024-10-05 11:59:40,292 DEBUG cd /home/priya/Desktop/frappe-training/my-bench && /home/priya/Desktop/frappe-training/my-bench/env/bin/python -m pip install --quiet --upgrade -e /home/priya/Desktop/frappe-training/my-bench/apps/expensemanager 
+2024-10-05 11:59:42,263 DEBUG bench build --app expensemanager
+2024-10-05 11:59:42,336 INFO /home/priya/.local/bin/bench build --app expensemanager
+2024-10-05 11:59:43,417 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-05 11:59:43,814 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-05 12:00:01,925 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-05 12:00:31,355 INFO /home/priya/.local/bin/bench --site mysite.localhost install app ExpenseManager
+2024-10-05 12:00:31,357 WARNING /home/priya/.local/bin/bench --site mysite.localhost install app ExpenseManager executed with exit code 2
+2024-10-05 12:00:31,848 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-05 12:03:09,791 INFO /home/priya/.local/bin/bench --site mysite.localhost install app ExpenseManager
+2024-10-05 12:03:09,793 WARNING /home/priya/.local/bin/bench --site mysite.localhost install app ExpenseManager executed with exit code 2
+2024-10-05 12:03:10,264 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-05 12:03:32,201 INFO /home/priya/.local/bin/bench --help
+2024-10-05 12:09:58,202 INFO /home/priya/.local/bin/bench --site mysite.localhost install app ExpenseManager
+2024-10-05 12:09:58,205 WARNING /home/priya/.local/bin/bench --site mysite.localhost install app ExpenseManager executed with exit code 2
+2024-10-05 12:09:58,383 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-05 12:11:28,991 INFO /home/priya/.local/bin/bench --site mysite.localhost install app ExpenseManager
+2024-10-05 12:11:28,992 WARNING /home/priya/.local/bin/bench --site mysite.localhost install app ExpenseManager executed with exit code 2
+2024-10-05 12:11:29,372 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-05 12:12:57,658 INFO /home/priya/.local/bin/bench --site mysite.localhost install-app ExpenseManager
+2024-10-05 12:13:46,715 INFO /home/priya/.local/bin/bench --site mysite.localhost install-app expensemanager
+2024-10-05 12:14:52,166 INFO /home/priya/.local/bin/bench start
+2024-10-05 12:14:52,376 INFO /home/priya/.local/bin/bench watch
+2024-10-05 12:14:52,385 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-05 12:14:52,417 INFO /home/priya/.local/bin/bench schedule
+2024-10-05 12:14:52,427 INFO /home/priya/.local/bin/bench worker
+2024-10-05 21:30:27,579 INFO /home/priya/.local/bin/bench migrate
+2024-10-05 21:32:42,196 INFO /home/priya/.local/bin/bench start
+2024-10-05 21:32:42,402 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-05 21:32:42,418 INFO /home/priya/.local/bin/bench watch
+2024-10-05 21:32:42,431 INFO /home/priya/.local/bin/bench worker
+2024-10-05 21:32:42,438 INFO /home/priya/.local/bin/bench schedule
+2024-10-06 00:00:01,557 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-06 11:03:42,523 INFO /home/priya/.local/bin/bench start
+2024-10-06 11:03:42,748 INFO /home/priya/.local/bin/bench schedule
+2024-10-06 11:03:42,768 INFO /home/priya/.local/bin/bench worker
+2024-10-06 11:03:42,770 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-06 11:03:42,774 INFO /home/priya/.local/bin/bench watch
+2024-10-06 12:00:01,754 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-07 19:06:02,629 INFO /home/priya/.local/bin/bench start
+2024-10-07 19:06:02,867 INFO /home/priya/.local/bin/bench worker
+2024-10-07 19:06:02,868 INFO /home/priya/.local/bin/bench schedule
+2024-10-07 19:06:02,885 INFO /home/priya/.local/bin/bench watch
+2024-10-07 19:06:02,887 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-08 10:07:36,392 INFO /home/priya/.local/bin/bench start
+2024-10-08 10:07:36,637 INFO /home/priya/.local/bin/bench worker
+2024-10-08 10:07:36,647 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-08 10:07:36,649 INFO /home/priya/.local/bin/bench watch
+2024-10-08 10:07:36,657 INFO /home/priya/.local/bin/bench schedule
+2024-10-08 12:40:23,570 INFO /home/priya/.local/bin/bench --site airticket.localhost add-to-hosts
+2024-10-08 12:43:48,627 INFO /home/priya/.local/bin/bench --site airticket.localhost migrate
+2024-10-08 12:44:27,135 INFO /home/priya/.local/bin/bench start
+2024-10-08 12:44:27,365 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-08 12:44:27,370 INFO /home/priya/.local/bin/bench watch
+2024-10-08 12:44:27,393 INFO /home/priya/.local/bin/bench schedule
+2024-10-08 12:44:27,398 INFO /home/priya/.local/bin/bench worker
+2024-10-08 12:48:02,985 INFO /home/priya/.local/bin/bench use airticket.localhost
+2024-10-08 12:49:46,352 INFO /home/priya/.local/bin/bench --site airticket.localhost add-to-hosts
+2024-10-08 12:49:52,217 INFO /home/priya/.local/bin/bench use airticket.localhost
+2024-10-08 12:50:07,913 INFO /home/priya/.local/bin/bench start
+2024-10-08 12:50:08,110 INFO /home/priya/.local/bin/bench watch
+2024-10-08 12:50:08,131 INFO /home/priya/.local/bin/bench worker
+2024-10-08 12:50:08,140 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-08 12:50:08,145 INFO /home/priya/.local/bin/bench schedule
+2024-10-08 12:52:08,393 INFO /home/priya/.local/bin/bench --site airticket.localhost migrate
+2024-10-08 16:36:06,206 INFO /home/priya/.local/bin/bench start
+2024-10-08 16:36:06,433 INFO /home/priya/.local/bin/bench schedule
+2024-10-08 16:36:06,439 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-08 16:36:06,463 INFO /home/priya/.local/bin/bench watch
+2024-10-08 16:36:06,466 INFO /home/priya/.local/bin/bench worker
+2024-10-08 18:00:01,577 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-09 10:01:48,630 INFO /home/priya/.local/bin/bench start
+2024-10-09 10:01:48,952 INFO /home/priya/.local/bin/bench worker
+2024-10-09 10:01:48,952 INFO /home/priya/.local/bin/bench schedule
+2024-10-09 10:01:48,952 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-09 10:01:48,979 INFO /home/priya/.local/bin/bench watch
+2024-10-09 12:00:01,176 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-09 18:00:01,718 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-10 12:00:01,219 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-14 17:30:58,923 INFO /home/priya/.local/bin/bench start
+2024-10-14 17:30:59,168 INFO /home/priya/.local/bin/bench schedule
+2024-10-14 17:30:59,180 INFO /home/priya/.local/bin/bench watch
+2024-10-14 17:30:59,186 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-14 17:30:59,186 INFO /home/priya/.local/bin/bench worker
+2024-10-14 17:31:41,109 INFO /home/priya/.local/bin/bench use mysite.localhost
+2024-10-14 17:33:07,272 INFO /home/priya/.local/bin/bench --site mysite.localhost add-to-hosts
+2024-10-14 17:33:25,954 INFO /home/priya/.local/bin/bench use mysite.localhost
+2024-10-14 17:33:38,103 INFO /home/priya/.local/bin/bench start
+2024-10-14 17:33:38,309 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-14 17:33:38,346 INFO /home/priya/.local/bin/bench schedule
+2024-10-14 17:33:38,349 INFO /home/priya/.local/bin/bench worker
+2024-10-14 17:33:38,354 INFO /home/priya/.local/bin/bench watch
+2024-10-14 18:00:01,988 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-15 11:25:01,289 INFO /home/priya/.local/bin/bench start
+2024-10-15 11:25:01,535 INFO /home/priya/.local/bin/bench watch
+2024-10-15 11:25:01,535 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-15 11:25:01,546 INFO /home/priya/.local/bin/bench schedule
+2024-10-15 11:25:01,546 INFO /home/priya/.local/bin/bench worker
+2024-10-15 12:00:01,733 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-15 18:00:01,865 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-16 00:00:02,087 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-16 09:56:01,067 INFO /home/priya/.local/bin/bench start
+2024-10-16 09:56:01,287 INFO /home/priya/.local/bin/bench worker
+2024-10-16 09:56:01,287 INFO /home/priya/.local/bin/bench watch
+2024-10-16 09:56:01,308 INFO /home/priya/.local/bin/bench schedule
+2024-10-16 09:56:01,312 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-16 12:00:01,733 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-16 18:00:01,541 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-17 09:50:37,227 INFO /home/priya/.local/bin/bench start
+2024-10-17 09:50:37,446 INFO /home/priya/.local/bin/bench worker
+2024-10-17 09:50:37,450 INFO /home/priya/.local/bin/bench watch
+2024-10-17 09:50:37,476 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-17 09:50:37,476 INFO /home/priya/.local/bin/bench schedule
+2024-10-17 10:35:05,761 INFO /home/priya/.local/bin/bench --site airticket.localhost add-to-hosts
+2024-10-17 10:35:22,505 INFO /home/priya/.local/bin/bench use airticket.localhost
+2024-10-17 10:35:33,959 INFO /home/priya/.local/bin/bench start
+2024-10-17 10:35:34,188 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-17 10:35:34,196 INFO /home/priya/.local/bin/bench watch
+2024-10-17 10:35:34,198 INFO /home/priya/.local/bin/bench worker
+2024-10-17 10:35:34,209 INFO /home/priya/.local/bin/bench schedule
+2024-10-17 10:37:26,795 INFO /home/priya/.local/bin/bench migrate
+2024-10-17 12:00:01,834 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-17 18:00:45,190 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-17 20:28:35,201 INFO /home/priya/.local/bin/bench start
+2024-10-17 20:28:35,419 INFO /home/priya/.local/bin/bench worker
+2024-10-17 20:28:35,429 INFO /home/priya/.local/bin/bench schedule
+2024-10-17 20:28:35,442 INFO /home/priya/.local/bin/bench watch
+2024-10-17 20:28:35,446 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-17 20:47:59,244 INFO /home/priya/.local/bin/bench migrate
+2024-10-18 09:48:03,615 INFO /home/priya/.local/bin/bench start
+2024-10-18 09:48:04,196 INFO /home/priya/.local/bin/bench schedule
+2024-10-18 09:48:04,232 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-18 09:48:04,313 INFO /home/priya/.local/bin/bench worker
+2024-10-18 09:48:04,316 INFO /home/priya/.local/bin/bench watch
+2024-10-18 11:48:42,845 INFO /home/priya/.local/bin/bench --site mysite.localhost add-to-hosts
+2024-10-18 11:48:56,969 INFO /home/priya/.local/bin/bench use mysite.localhost
+2024-10-18 11:49:05,439 INFO /home/priya/.local/bin/bench start
+2024-10-18 11:49:05,681 INFO /home/priya/.local/bin/bench watch
+2024-10-18 11:49:05,682 INFO /home/priya/.local/bin/bench worker
+2024-10-18 11:49:05,695 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-18 11:49:05,708 INFO /home/priya/.local/bin/bench schedule
+2024-10-18 11:51:35,609 INFO /home/priya/.local/bin/bench --site airticket.localhost add-to-hosts
+2024-10-18 11:51:46,357 INFO /home/priya/.local/bin/bench use airticket.localhost
+2024-10-18 11:52:13,347 INFO /home/priya/.local/bin/bench start
+2024-10-18 11:52:13,576 INFO /home/priya/.local/bin/bench watch
+2024-10-18 11:52:13,600 INFO /home/priya/.local/bin/bench worker
+2024-10-18 11:52:13,604 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-18 11:52:13,610 INFO /home/priya/.local/bin/bench schedule
+2024-10-18 12:00:01,845 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-19 12:00:02,012 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-20 12:00:01,337 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-21 12:00:01,184 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-21 12:47:32,821 INFO /home/priya/.local/bin/bench new-site doctorappointment.localhost
+2024-10-21 12:49:06,503 INFO /home/priya/.local/bin/bench --site doctorappointment.localhost add-to-hosts
+2024-10-21 12:49:30,839 INFO /home/priya/.local/bin/bench use doctorappointment.localhost
+2024-10-21 12:49:48,179 INFO /home/priya/.local/bin/bench start
+2024-10-21 12:49:48,402 INFO /home/priya/.local/bin/bench watch
+2024-10-21 12:49:48,424 INFO /home/priya/.local/bin/bench worker
+2024-10-21 12:49:48,433 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-21 12:49:48,437 INFO /home/priya/.local/bin/bench schedule
+2024-10-21 18:00:02,101 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-22 10:20:05,412 INFO /home/priya/.local/bin/bench start
+2024-10-22 10:20:06,002 INFO /home/priya/.local/bin/bench watch
+2024-10-22 10:20:06,034 INFO /home/priya/.local/bin/bench schedule
+2024-10-22 10:20:06,100 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-22 10:20:06,137 INFO /home/priya/.local/bin/bench worker
+2024-10-22 10:31:25,053 INFO /home/priya/.local/bin/bench new-app appointments_app
+2024-10-22 10:31:25,073 LOG creating new app appointments_app
+2024-10-22 10:32:29,246 LOG Installing appointments_app
+2024-10-22 10:32:29,248 DEBUG cd /home/priya/Desktop/frappe-training/my-bench && /home/priya/Desktop/frappe-training/my-bench/env/bin/python -m pip install --quiet --upgrade -e /home/priya/Desktop/frappe-training/my-bench/apps/appointments_app 
+2024-10-22 10:32:34,290 DEBUG bench build --app appointments_app
+2024-10-22 10:32:34,522 INFO /home/priya/.local/bin/bench build --app appointments_app
+2024-10-22 10:32:37,672 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-22 10:32:38,512 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-22 10:37:20,035 INFO /home/priya/.local/bin/bench --site doctorappointment.localhost
+2024-10-22 10:37:48,171 INFO /home/priya/.local/bin/bench --site doctorappointment.localhost install-app appointments_app
+2024-10-22 10:38:42,304 INFO /home/priya/.local/bin/bench start
+2024-10-22 10:38:42,871 INFO /home/priya/.local/bin/bench worker
+2024-10-22 10:38:42,982 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-22 10:38:43,000 INFO /home/priya/.local/bin/bench watch
+2024-10-22 10:38:43,007 INFO /home/priya/.local/bin/bench schedule
+2024-10-22 12:00:01,481 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-22 15:09:35,139 INFO /home/priya/.local/bin/bench start
+2024-10-22 15:09:35,363 INFO /home/priya/.local/bin/bench watch
+2024-10-22 15:09:35,379 INFO /home/priya/.local/bin/bench schedule
+2024-10-22 15:09:35,382 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-22 15:09:35,387 INFO /home/priya/.local/bin/bench worker
+2024-10-22 18:00:21,553 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-22 21:13:14,238 INFO /home/priya/.local/bin/bench migrate
+2024-10-23 10:30:35,197 INFO /home/priya/.local/bin/bench start
+2024-10-23 10:30:35,427 INFO /home/priya/.local/bin/bench schedule
+2024-10-23 10:30:35,429 INFO /home/priya/.local/bin/bench watch
+2024-10-23 10:30:35,453 INFO /home/priya/.local/bin/bench serve --port 8000
+2024-10-23 10:30:35,459 INFO /home/priya/.local/bin/bench worker
+2024-10-23 12:00:02,034 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-24 12:00:01,605 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-24 18:00:01,779 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-25 18:00:01,838 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-26 12:00:01,846 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-26 18:00:02,000 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-10-28 12:00:01,675 INFO /home/priya/.local/bin/bench --verbose --site all backup
+2024-11-06 18:00:01,906 INFO /home/priya/.local/bin/bench --verbose --site all backup

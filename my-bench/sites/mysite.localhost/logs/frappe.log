@@ -1,0 +1,15 @@
+2024-10-04 14:29:28,901 ERROR frappe New Exception collected in error log
+Site: mysite.localhost
+Form Dict: {'doc': '{"name":21,"owner":"priyathakur23@navgurukul.org","creation":"2024-10-03 21:42:32.448368","modified":"2024-10-03 21:48:05.470251","modified_by":"priyathakur23@navgurukul.org","docstatus":0,"idx":0,"make":"tesla","model":"ts15","color":"red","year":2015,"license_plate":"tesla123","doctype":"Vehicle","__last_sync_on":"2024-10-04T08:59:17.716Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-04 14:29:47,261 ERROR frappe New Exception collected in error log
+Site: mysite.localhost
+Form Dict: {'doc': '{"name":21,"owner":"priyathakur23@navgurukul.org","creation":"2024-10-03 21:42:32.448368","modified":"2024-10-03 21:48:05.470251","modified_by":"priyathakur23@navgurukul.org","docstatus":0,"idx":0,"make":"tesla","model":"ts15","color":"red","year":2015,"license_plate":"tesla123","doctype":"Vehicle","__last_sync_on":"2024-10-04T08:59:17.716Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-04 14:36:31,126 ERROR frappe New Exception collected in error log
+Site: mysite.localhost
+Form Dict: {'doc': '{"name":21,"owner":"priyathakur23@navgurukul.org","creation":"2024-10-03 21:42:32.448368","modified":"2024-10-03 21:48:05.470251","modified_by":"priyathakur23@navgurukul.org","docstatus":0,"idx":0,"make":"tesla","model":"ts15","color":"red","year":2015,"license_plate":"tesla123","doctype":"Vehicle","__last_sync_on":"2024-10-04T09:06:17.612Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-05 12:58:59,020 ERROR frappe New Exception collected in error log
+Site: mysite.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Expense Claim","name":"new-expense-claim-icahpukznc","__islocal":1,"__unsaved":1,"owner":"Administrator","expense_list":[{"docstatus":0,"doctype":"ExpenseType","name":"new-expensetype-sovjeuktai","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-expense-claim-icahpukznc","parentfield":"expense_list","parenttype":"Expense Claim","idx":1,"__unedited":false,"expense_type":"travel","amount":1000},{"docstatus":0,"doctype":"ExpenseType","name":"new-expensetype-yzacbazjkl","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-expense-claim-icahpukznc","parentfield":"expense_list","parenttype":"Expense Claim","idx":2,"__unedited":false,"expense_type":"meal and stay","amount":700}],"employee":"Boby","date":"2024-10-05"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-08 10:48:33,099 ERROR frappe New Exception collected in error log
+Site: mysite.localhost
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}

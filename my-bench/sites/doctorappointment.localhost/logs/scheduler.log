@@ -1,0 +1,7 @@
+2024-10-21 13:02:00,795 ERROR scheduler Skipped queueing frappe.automation.doctype.reminder.reminder.send_reminders because it was found in queue for doctorappointment.localhost
+2024-10-21 13:02:00,804 ERROR scheduler Skipped queueing frappe.twofactor.delete_all_barcodes_for_users because it was found in queue for doctorappointment.localhost
+2024-10-21 13:02:00,820 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for doctorappointment.localhost
+2024-10-21 13:02:00,825 ERROR scheduler Skipped queueing frappe.deferred_insert.save_to_db because it was found in queue for doctorappointment.localhost
+2024-10-21 13:02:00,829 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for doctorappointment.localhost
+2024-10-21 13:02:00,840 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for doctorappointment.localhost
+2024-10-21 13:02:00,843 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for doctorappointment.localhost

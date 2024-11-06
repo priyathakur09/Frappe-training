@@ -1,0 +1,31 @@
+2024-07-25 21:22:56,035 Worker rq:worker:398fce99f5aa4de69d9a23ff55776f09 started with PID 10760, version 1.16.2
+2024-07-25 21:22:56,035 Subscribing to channel rq:pubsub:398fce99f5aa4de69d9a23ff55776f09
+2024-07-25 21:22:56,036 *** Listening on home-priya-Desktop-frappe-training-frappe-bench:short, home-priya-Desktop-frappe-training-frappe-bench:default, home-priya-Desktop-frappe-training-frappe-bench:long...
+2024-07-25 21:22:56,037 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:short
+2024-07-25 21:22:56,037 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:default
+2024-07-25 21:22:56,038 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:long
+2024-07-25 21:38:10,437 Worker rq:worker:69eb79d73acb46d78a168cfd1bcb386e started with PID 4611, version 1.16.2
+2024-07-25 21:38:10,437 Subscribing to channel rq:pubsub:69eb79d73acb46d78a168cfd1bcb386e
+2024-07-25 21:38:10,438 *** Listening on home-priya-Desktop-frappe-training-frappe-bench:short, home-priya-Desktop-frappe-training-frappe-bench:default, home-priya-Desktop-frappe-training-frappe-bench:long...
+2024-07-25 21:38:10,438 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:short
+2024-07-25 21:38:10,439 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:default
+2024-07-25 21:38:10,439 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:long
+2024-07-25 21:51:40,569 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:short
+2024-07-25 21:51:40,576 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:default
+2024-07-25 21:51:40,579 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:long
+2024-07-25 22:05:10,664 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:short
+2024-07-25 22:05:10,666 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:default
+2024-07-25 22:05:10,668 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:long
+2024-07-25 22:18:40,824 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:short
+2024-07-25 22:18:40,825 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:default
+2024-07-25 22:18:40,826 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:long
+2024-07-25 22:32:10,999 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:short
+2024-07-25 22:32:11,004 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:default
+2024-07-25 22:32:11,006 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:long
+2024-07-25 22:43:27,419 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:short
+2024-07-25 22:43:27,425 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:default
+2024-07-25 22:43:27,429 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:long
+2024-07-25 22:56:57,555 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:short
+2024-07-25 22:56:57,559 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:default
+2024-07-25 22:56:57,563 Cleaning registries for queue: home-priya-Desktop-frappe-training-frappe-bench:long
+2024-07-25 23:05:50,242 Worker 69eb79d73acb46d78a168cfd1bcb386e [PID 4611]: warm shut down requested

@@ -1,0 +1,3 @@
+2024-10-22 13:01:32,073 ERROR frappe New Exception collected in error log
+Site: doctorappointment.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Doctor","name":"new-doctor-lgbktjwqhx","__islocal":1,"__unsaved":1,"owner":"Administrator","first_name":"Manish ","last_name":"Kale","speciality":"Pediatrician"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

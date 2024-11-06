@@ -1,0 +1,51 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "rentals": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "63fb1b5e3f8822414e2538216f790e1f43f38751",
+            "branch": "rent-main"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "airplane_mode": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "670cdd7ff1499f8105c54ab6cf7507f63c6475e0",
+            "branch": "airplanedeveloper"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "expensemanager": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "5ad1d29b05073e7e157a5764f3743b69b6b2c107",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
+    },
+    "appointments_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "90ae2d7ca2b501f44be299a8f948b312eb77a74e",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    }
+}
